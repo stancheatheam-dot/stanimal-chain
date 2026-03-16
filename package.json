@@ -1,7 +1,7 @@
 {
   "name": "stanimal-chain",
   "version": "1.0.1"
-  "description": "Stanimal Chain — Proof of Stake supply chain blockchain",
+  "description": "Stanimal Chain - Proof of Stake supply chain blockchain",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",

@@ -33,9 +33,11 @@ try {
 api.listen(HTTP_PORT, () => {
   console.log(`
   ╔══════════════════════════════════════════╗
-  ║        STANIMAL CHAIN NODE               ║
-  ║  HTTP API → http://localhost:${HTTP_PORT}      ║
-  ║  P2P      → ws://localhost:${P2P_PORT}         ║
+  ║          ║api.listen(HTTP_PORT, () => {
+  console.log('Stanimal Chain node running');
+  console.log('HTTP API: http://localhost:' + HTTP_PORT);
+  console.log('P2P: ws://localhost:' + P2P_PORT);
+});
   ╚══════════════════════════════════════════╝
   `);
 });
